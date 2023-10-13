@@ -158,7 +158,7 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="flex justify-between items-end">
 					<button class="btn btn-primary" on:click={() => mint(w.id)}>mint</button>
 					<p>redeemed: {w.redeemed} tokens</p>
 				</div>
